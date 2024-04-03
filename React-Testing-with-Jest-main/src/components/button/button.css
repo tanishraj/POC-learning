@@ -1,0 +1,12 @@
+div{
+    padding: 5px 10px;
+    background: gold;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+div:hover{
+    background: #f00;
+    color: #fff;
+}

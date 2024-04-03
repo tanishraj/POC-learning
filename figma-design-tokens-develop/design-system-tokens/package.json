@@ -1,0 +1,17 @@
+{
+  "name": "design-system-tokens",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "transform": "token-transformer submodule/tokens.json tokens/flatTokens.json --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true --preserveRawValue=false",
+    "build-tokens": "npx style-dictionary build --config config.json",
+    "buildTokens": "style-dictionary build --config build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.32"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "path-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "path": "^0.12.7"
+  }
+}

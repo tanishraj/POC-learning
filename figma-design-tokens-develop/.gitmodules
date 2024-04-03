@@ -1,0 +1,3 @@
+[submodule "design-system-tokens/submodule"]
+	path = design-system-tokens/submodule
+	url = https://github.com/tanishraj/design-system-tokens.git
